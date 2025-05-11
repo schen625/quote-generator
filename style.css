@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Caveat:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin: 20px;
+    font-family: "Caveat", cursive;
+}
+
+.quote {
+    text-align: center;
+    color: #000000;
+    font-family: "Caveat", cursive;
+    margin: 5px;
+}
+
+.author {
+    color: #000000;
+    font-family: "Caveat", cursive;
+    margin: 10px;
+}
+
+.new-quote-btn {
+    cursor: pointer;
+    border: 3px solid black;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    font-family: "Caveat", cursive;
+}
+
+.buttons {
+    border-color:black;
+}
+
+hr {
+    margin: 15px;
+    width: 75%;
+    border: 1px solid black;
+  }
+  
+  .new-quote-btn:hover {
+    background-color: rgb(19, 98, 143);
+    color: #ffffff;
+  }
